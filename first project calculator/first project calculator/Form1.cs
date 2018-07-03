@@ -29,31 +29,43 @@ namespace first_project_calculator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string firstValueText = textBox1.Text;
-            double firstValue = Convert.ToDouble(firstValueText);
-            string secondValueText = textBox2.Text;
-            double secondValue = Convert.ToDouble(secondValueText);
-            double result = firstValue - secondValue;
-            textBox3.Text = result.ToString();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string firstValueText = textBox1.Text;
-            double firstValue = Convert.ToDouble(firstValueText);
-            string secondValueText = textBox2.Text;
-            double secondValue = Convert.ToDouble(secondValueText);
-            double result = firstValue * secondValue;
-            textBox3.Text = result.ToString();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void operations(object sender, EventArgs e)
         {
             string firstValueText = textBox1.Text;
             double firstValue = Convert.ToDouble(firstValueText);
             string secondValueText = textBox2.Text;
             double secondValue = Convert.ToDouble(secondValueText);
-            double result = firstValue / secondValue;
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "button1":
+                    result = secondValue + firstValue;
+                    break;
+                case "button2":
+                    result = secondValue - firstValue;
+                    break;
+                case "button3":
+                    result = secondValue * firstValue;
+                    break;
+                case "button4":
+                    result = secondValue / firstValue;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
             textBox3.Text = result.ToString();
         }
     }
