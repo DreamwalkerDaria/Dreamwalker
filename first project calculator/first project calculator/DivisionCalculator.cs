@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace first_project_calculator
 {
-    class DivisionCalculator
+    public class DivisionCalculator : ICalculatorTwoArguments
     {
+        public double Calculate(double firstArgument, double secondArgument)
+        {
+            return firstArgument / secondArgument;
+        }
     }
 }

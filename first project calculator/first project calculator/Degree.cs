@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace first_project_calculator
 {
-    public class MultiplyCalculator : ICalculatorTwoArguments
+    public class Degree : ICalculatorOneArguments
     {
-        public double Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstValue)
         {
-            return firstArgument * secondArgument;
+            return firstValue * firstValue;
         }
     }
 }

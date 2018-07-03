@@ -39,34 +39,26 @@ namespace first_project_calculator
 
         private void button4_Click(object sender, EventArgs e)
         {
-
         }
 
         private void operations(object sender, EventArgs e)
         {
+            string firstArgumentText = textBox1.Text;
+            double firstArgument = Convert.ToDouble(firstArgumentText);
+            string secondArgumentText = textBox2.Text;
+            double secondArgument = Convert.ToDouble(secondArgumentText);
+            string operation = ((Button)sender).Name;
+            ICalculatorTwoArguments calculator = CalculateTwoFactory.CreateCalculator(operation);
+            double result = calculator.Calculate(firstArgument, secondArgument);
+        }
+
+/*private void oneoperations(object sender, EventArgs e)
+        {
             string firstValueText = textBox1.Text;
             double firstValue = Convert.ToDouble(firstValueText);
-            string secondValueText = textBox2.Text;
-            double secondValue = Convert.ToDouble(secondValueText);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "button1":
-                    result = secondValue + firstValue;
-                    break;
-                case "button2":
-                    result = secondValue - firstValue;
-                    break;
-                case "button3":
-                    result = secondValue * firstValue;
-                    break;
-                case "button4":
-                    result = secondValue / firstValue;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
-            textBox3.Text = result.ToString();
-        }
+            string operation = ((Button)sender).Name;
+            ICalculatorOneArguments calculator = CalculateOneFactory.CreateCalculator(operation);
+            double result = calculator.Calculate(firstValue);
+        }*/
     }
 }
