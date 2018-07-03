@@ -56,6 +56,5 @@ namespace first_project_calculator
             double result = firstValue / secondValue;
             textBox3.Text = result.ToString();
         }
-
     }
 }
