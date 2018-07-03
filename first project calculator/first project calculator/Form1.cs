@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace exp
+namespace first_project_calculator
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = textBox1.Text + 0;
         }
     }
 }
