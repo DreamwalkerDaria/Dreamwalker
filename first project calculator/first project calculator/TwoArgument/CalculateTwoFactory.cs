@@ -1,7 +1,4 @@
 ﻿using System;
-
-
-
 namespace first_project_calculator
 {
     class CalculateTwoFactory

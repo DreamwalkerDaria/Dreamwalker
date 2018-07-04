@@ -1,7 +1,4 @@
-﻿
-
-
-namespace first_project_calculator
+﻿namespace first_project_calculator
 {
     public class MultiplyCalculator : ICalculatorTwoArguments
     {
