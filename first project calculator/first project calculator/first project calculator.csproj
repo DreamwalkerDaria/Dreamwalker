@@ -56,8 +56,11 @@
     <Compile Include="HardTests\AdditionHardTest.cs" />
     <Compile Include="HardTests\CosHardTest.cs" />
     <Compile Include="HardTests\CtgHardTest.cs" />
+    <Compile Include="HardTests\CubeHardTest.cs" />
+    <Compile Include="HardTests\Degree.cs" />
     <Compile Include="HardTests\DivisionHardTest.cs" />
     <Compile Include="HardTests\MultiplyHardTest.cs" />
+    <Compile Include="HardTests\RootHardTest.cs" />
     <Compile Include="HardTests\SinHardTest.cs" />
     <Compile Include="HardTests\SubtractionHardTest.cs" />
     <Compile Include="ArgumentsTests\OneArgumentTest.cs" />
