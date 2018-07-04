@@ -60,6 +60,7 @@
     <Compile Include="HardTests\SinHardTest.cs" />
     <Compile Include="HardTests\SubtractionHardTest.cs" />
     <Compile Include="ArgumentsTests\OneArgumentTest.cs" />
+    <Compile Include="HardTests\TgHardTest.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="SimpleTests\CosTests.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
