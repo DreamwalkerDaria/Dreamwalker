@@ -38,34 +38,41 @@
             this.Degree = new System.Windows.Forms.Button();
             this.Root = new System.Windows.Forms.Button();
             this.Cube = new System.Windows.Forms.Button();
+            this.Tg = new System.Windows.Forms.Button();
+            this.Ctg = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
+            this.Cos = new System.Windows.Forms.Button();
+            this.Module = new System.Windows.Forms.Button();
+            this.Ln = new System.Windows.Forms.Button();
+            this.Exp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 20);
+            this.textBox1.Size = new System.Drawing.Size(146, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(12, 38);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(164, 20);
+            this.textBox2.Size = new System.Drawing.Size(146, 20);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(11, 224);
+            this.textBox3.Location = new System.Drawing.Point(12, 216);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 20);
+            this.textBox3.Size = new System.Drawing.Size(146, 20);
             this.textBox3.TabIndex = 2;
             // 
             // Addition
             // 
             this.Addition.Location = new System.Drawing.Point(12, 64);
             this.Addition.Name = "Addition";
-            this.Addition.Size = new System.Drawing.Size(78, 77);
+            this.Addition.Size = new System.Drawing.Size(70, 70);
             this.Addition.TabIndex = 3;
             this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
@@ -73,9 +80,9 @@
             // 
             // Subtraction
             // 
-            this.Subtraction.Location = new System.Drawing.Point(96, 64);
+            this.Subtraction.Location = new System.Drawing.Point(88, 64);
             this.Subtraction.Name = "Subtraction";
-            this.Subtraction.Size = new System.Drawing.Size(80, 77);
+            this.Subtraction.Size = new System.Drawing.Size(70, 70);
             this.Subtraction.TabIndex = 4;
             this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
@@ -83,9 +90,9 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(11, 147);
+            this.Multiply.Location = new System.Drawing.Point(12, 140);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(79, 71);
+            this.Multiply.Size = new System.Drawing.Size(70, 70);
             this.Multiply.TabIndex = 5;
             this.Multiply.Text = "x";
             this.Multiply.UseVisualStyleBackColor = true;
@@ -93,9 +100,9 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(96, 147);
+            this.Division.Location = new System.Drawing.Point(88, 140);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(79, 71);
+            this.Division.Size = new System.Drawing.Size(70, 70);
             this.Division.TabIndex = 6;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
@@ -103,9 +110,9 @@
             // 
             // Degree
             // 
-            this.Degree.Location = new System.Drawing.Point(182, 64);
+            this.Degree.Location = new System.Drawing.Point(316, 64);
             this.Degree.Name = "Degree";
-            this.Degree.Size = new System.Drawing.Size(64, 30);
+            this.Degree.Size = new System.Drawing.Size(70, 30);
             this.Degree.TabIndex = 7;
             this.Degree.Text = "Degree";
             this.Degree.UseVisualStyleBackColor = true;
@@ -113,9 +120,9 @@
             // 
             // Root
             // 
-            this.Root.Location = new System.Drawing.Point(252, 64);
+            this.Root.Location = new System.Drawing.Point(164, 64);
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(64, 30);
+            this.Root.Size = new System.Drawing.Size(70, 30);
             this.Root.TabIndex = 8;
             this.Root.Text = "Root";
             this.Root.UseVisualStyleBackColor = true;
@@ -123,19 +130,96 @@
             // 
             // Cube
             // 
-            this.Cube.Location = new System.Drawing.Point(322, 64);
+            this.Cube.Location = new System.Drawing.Point(240, 64);
             this.Cube.Name = "Cube";
-            this.Cube.Size = new System.Drawing.Size(64, 30);
+            this.Cube.Size = new System.Drawing.Size(70, 30);
             this.Cube.TabIndex = 9;
             this.Cube.Text = "Cube";
             this.Cube.UseVisualStyleBackColor = true;
             this.Cube.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Tg
+            // 
+            this.Tg.Location = new System.Drawing.Point(164, 175);
+            this.Tg.Name = "Tg";
+            this.Tg.Size = new System.Drawing.Size(35, 35);
+            this.Tg.TabIndex = 10;
+            this.Tg.Text = "Tg";
+            this.Tg.UseVisualStyleBackColor = true;
+            this.Tg.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Ctg
+            // 
+            this.Ctg.Location = new System.Drawing.Point(199, 175);
+            this.Ctg.Name = "Ctg";
+            this.Ctg.Size = new System.Drawing.Size(35, 35);
+            this.Ctg.TabIndex = 11;
+            this.Ctg.Text = "Ctg";
+            this.Ctg.UseVisualStyleBackColor = true;
+            this.Ctg.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Sin
+            // 
+            this.Sin.Location = new System.Drawing.Point(164, 140);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(35, 35);
+            this.Sin.TabIndex = 12;
+            this.Sin.Text = "Sin";
+            this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Cos
+            // 
+            this.Cos.Location = new System.Drawing.Point(199, 140);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(35, 35);
+            this.Cos.TabIndex = 13;
+            this.Cos.Text = "Cos";
+            this.Cos.UseVisualStyleBackColor = true;
+            this.Cos.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Module
+            // 
+            this.Module.Location = new System.Drawing.Point(164, 104);
+            this.Module.Name = "Module";
+            this.Module.Size = new System.Drawing.Size(70, 30);
+            this.Module.TabIndex = 14;
+            this.Module.Text = "Module";
+            this.Module.UseVisualStyleBackColor = true;
+            this.Module.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Ln
+            // 
+            this.Ln.Location = new System.Drawing.Point(240, 104);
+            this.Ln.Name = "Ln";
+            this.Ln.Size = new System.Drawing.Size(70, 30);
+            this.Ln.TabIndex = 15;
+            this.Ln.Text = "Ln";
+            this.Ln.UseVisualStyleBackColor = true;
+            this.Ln.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Exp
+            // 
+            this.Exp.Location = new System.Drawing.Point(316, 104);
+            this.Exp.Name = "Exp";
+            this.Exp.Size = new System.Drawing.Size(70, 30);
+            this.Exp.TabIndex = 16;
+            this.Exp.Text = "Exp";
+            this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.oneoperations);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 252);
+            this.Controls.Add(this.Exp);
+            this.Controls.Add(this.Ln);
+            this.Controls.Add(this.Module);
+            this.Controls.Add(this.Cos);
+            this.Controls.Add(this.Sin);
+            this.Controls.Add(this.Ctg);
+            this.Controls.Add(this.Tg);
             this.Controls.Add(this.Cube);
             this.Controls.Add(this.Root);
             this.Controls.Add(this.Degree);
@@ -165,6 +249,13 @@
         private System.Windows.Forms.Button Degree;
         private System.Windows.Forms.Button Root;
         private System.Windows.Forms.Button Cube;
+        private System.Windows.Forms.Button Tg;
+        private System.Windows.Forms.Button Ctg;
+        private System.Windows.Forms.Button Sin;
+        private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Module;
+        private System.Windows.Forms.Button Ln;
+        private System.Windows.Forms.Button Exp;
     }
 }
 

@@ -14,6 +14,20 @@ namespace first_project_calculator.OneArgument
                     return new Root();
                 case "Cube":
                     return new Cube();
+                case "Sin":
+                    return new Sin();
+                case "Cos":
+                    return new Cos();
+                case "Tg":
+                    return new Tg();
+                case "Ctg":
+                    return new Ctg();
+                case "Module":
+                    return new Module();
+                case "Ln":
+                    return new Ln();
+                case "Exp":
+                    return new Exp();
                 default:
                 throw new Exception("Неизвестная операция");
             }
