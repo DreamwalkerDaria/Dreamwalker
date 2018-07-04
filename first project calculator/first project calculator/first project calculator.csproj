@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HardTests\AdditionHardTest.cs" />
+    <Compile Include="HardTests\DivisionHardTest.cs" />
+    <Compile Include="HardTests\MultiplyHardTest.cs" />
+    <Compile Include="HardTests\SubtractionHardTest.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
     <Compile Include="OneArgument\Cube.cs" />

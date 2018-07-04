@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace first_project_calculator.HardTests
 {
     [TestFixture]
-    public class AdditionHardTests
+    public class DivisionHardTests
     {
-        [TestCase(6, 2, 8)]
-        [TestCase(8, 4, 12)]
-        [TestCase(9, 3, 12)]
-        public void AdditionCalculatorTests(double firstArgument, double secondArgument, double result)
+        [TestCase(10, 2, 5)]
+        [TestCase(8, 4, 2)]
+        [TestCase(9, 3, 3)]
+        public void DivisionCalculatorTests(double firstArgument, double secondArgument, double result)
         {
-            var calculator = new AdditionCalculator();
+            var calculator = new DivisionCalculator();
             var actualResult = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(result, actualResult);
         }
