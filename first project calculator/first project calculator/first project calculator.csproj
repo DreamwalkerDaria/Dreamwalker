@@ -59,6 +59,9 @@
     <Compile Include="HardTests\CubeHardTest.cs" />
     <Compile Include="HardTests\Degree.cs" />
     <Compile Include="HardTests\DivisionHardTest.cs" />
+    <Compile Include="HardTests\ExpHardTest.cs" />
+    <Compile Include="HardTests\LnHardTest.cs" />
+    <Compile Include="HardTests\ModuleHardTest.cs" />
     <Compile Include="HardTests\MultiplyHardTest.cs" />
     <Compile Include="HardTests\RootHardTest.cs" />
     <Compile Include="HardTests\SinHardTest.cs" />

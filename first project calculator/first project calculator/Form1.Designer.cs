@@ -110,7 +110,7 @@
             // 
             // Degree
             // 
-            this.Degree.Location = new System.Drawing.Point(316, 64);
+            this.Degree.Location = new System.Drawing.Point(164, 64);
             this.Degree.Name = "Degree";
             this.Degree.Size = new System.Drawing.Size(70, 30);
             this.Degree.TabIndex = 7;
@@ -120,7 +120,7 @@
             // 
             // Root
             // 
-            this.Root.Location = new System.Drawing.Point(164, 64);
+            this.Root.Location = new System.Drawing.Point(316, 64);
             this.Root.Name = "Root";
             this.Root.Size = new System.Drawing.Size(70, 30);
             this.Root.TabIndex = 8;
