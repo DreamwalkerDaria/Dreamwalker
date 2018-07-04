@@ -2,6 +2,6 @@
 {
     public interface ICalculatorOneArguments
     {
-        double Calculate(double firstValue);
+        double Calculate(double firstArgument);
     }
 }

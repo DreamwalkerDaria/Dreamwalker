@@ -35,6 +35,8 @@
             this.Subtraction = new System.Windows.Forms.Button();
             this.Multiply = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
+            this.Degree = new System.Windows.Forms.Button();
+            this.Root = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -98,11 +100,33 @@
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.operations);
             // 
+            // Degree
+            // 
+            this.Degree.Location = new System.Drawing.Point(182, 64);
+            this.Degree.Name = "Degree";
+            this.Degree.Size = new System.Drawing.Size(81, 77);
+            this.Degree.TabIndex = 7;
+            this.Degree.Text = "Degree";
+            this.Degree.UseVisualStyleBackColor = true;
+            this.Degree.Click += new System.EventHandler(this.oneoperations);
+            // 
+            // Root
+            // 
+            this.Root.Location = new System.Drawing.Point(182, 147);
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(81, 77);
+            this.Root.TabIndex = 8;
+            this.Root.Text = "Root";
+            this.Root.UseVisualStyleBackColor = true;
+            this.Root.Click += new System.EventHandler(this.oneoperations);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(288, 252);
+            this.Controls.Add(this.Root);
+            this.Controls.Add(this.Degree);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Multiply);
             this.Controls.Add(this.Subtraction);
@@ -126,6 +150,8 @@
         private System.Windows.Forms.Button Subtraction;
         private System.Windows.Forms.Button Multiply;
         private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Button Degree;
+        private System.Windows.Forms.Button Root;
     }
 }
 

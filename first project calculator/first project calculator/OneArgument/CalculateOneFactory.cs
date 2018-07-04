@@ -12,9 +12,9 @@ namespace first_project_calculator
         {
             switch (calculatorName)
             {
-                case "ButtonDegree":
+                case "Degree":
                     return new Degree();
-                case "ButtonRoot":
+                case "Root":
                     return new Root();
                 default:
                 throw new Exception("Неизвестная операция");

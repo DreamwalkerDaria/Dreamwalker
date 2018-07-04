@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace first_project_calculator
 {
-    public class Degree : ICalculatorOneArguments
+    public class Root : ICalculatorOneArguments
     {
-        public double Calculate(double firstValue)
+        public double Calculate(double firstArgument)
         {
-            return firstValue * firstValue;
+            return Math.Sqrt(firstArgument);
         }
     }
 }

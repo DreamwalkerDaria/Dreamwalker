@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdditionCalculator.cs" />
-    <Compile Include="CalculateOneFactory.cs" />
-    <Compile Include="CalculateTwoFactory.cs" />
-    <Compile Include="Degree.cs" />
-    <Compile Include="DivisionCalculator.cs" />
+    <Compile Include="TwoArgument\AdditionCalculator.cs" />
+    <Compile Include="OneArgument\CalculateOneFactory.cs" />
+    <Compile Include="TwoArgument\CalculateTwoFactory.cs" />
+    <Compile Include="OneArgument\Degree.cs" />
+    <Compile Include="TwoArgument\DivisionCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ICalculatorOneArguments.cs" />
-    <Compile Include="MultiplyCalculator.cs" />
-    <Compile Include="Root.cs" />
-    <Compile Include="SubtractionCalculator.cs" />
-    <Compile Include="ICalculatorTwoArguments.cs" />
+    <Compile Include="OneArgument\ICalculatorOneArguments.cs" />
+    <Compile Include="TwoArgument\MultiplyCalculator.cs" />
+    <Compile Include="OneArgument\Root.cs" />
+    <Compile Include="TwoArgument\SubtractionCalculator.cs" />
+    <Compile Include="TwoArgument\ICalculatorTwoArguments.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

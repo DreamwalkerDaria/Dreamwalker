@@ -52,14 +52,14 @@ namespace first_project_calculator
             double result = calculator.Calculate(firstArgument, secondArgument);
             textBox3.Text = result.ToString();
         }
-
-/*private void oneoperations(object sender, EventArgs e)
+private void oneoperations(object sender, EventArgs e)
         {
             string firstValueText = textBox1.Text;
             double firstValue = Convert.ToDouble(firstValueText);
             string operation = ((Button)sender).Name;
             ICalculatorOneArguments calculator = CalculateOneFactory.CreateCalculator(operation);
             double result = calculator.Calculate(firstValue);
-        }*/
+            textBox3.Text = result.ToString();
+        }
     }
 }
