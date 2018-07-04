@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="AdditionTests.cs" />
     <Compile Include="CalculateTwoFactoryTests.cs" />
+    <Compile Include="MultiplyTests.cs" />
     <Compile Include="RootTest.cs" />
     <Compile Include="SubtractionTests.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
