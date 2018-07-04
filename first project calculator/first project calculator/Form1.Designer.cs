@@ -37,6 +37,7 @@
             this.Division = new System.Windows.Forms.Button();
             this.Degree = new System.Windows.Forms.Button();
             this.Root = new System.Windows.Forms.Button();
+            this.Cube = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -104,7 +105,7 @@
             // 
             this.Degree.Location = new System.Drawing.Point(182, 64);
             this.Degree.Name = "Degree";
-            this.Degree.Size = new System.Drawing.Size(81, 77);
+            this.Degree.Size = new System.Drawing.Size(64, 30);
             this.Degree.TabIndex = 7;
             this.Degree.Text = "Degree";
             this.Degree.UseVisualStyleBackColor = true;
@@ -112,19 +113,30 @@
             // 
             // Root
             // 
-            this.Root.Location = new System.Drawing.Point(182, 147);
+            this.Root.Location = new System.Drawing.Point(252, 64);
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(81, 77);
+            this.Root.Size = new System.Drawing.Size(64, 30);
             this.Root.TabIndex = 8;
             this.Root.Text = "Root";
             this.Root.UseVisualStyleBackColor = true;
             this.Root.Click += new System.EventHandler(this.oneoperations);
             // 
+            // Cube
+            // 
+            this.Cube.Location = new System.Drawing.Point(322, 64);
+            this.Cube.Name = "Cube";
+            this.Cube.Size = new System.Drawing.Size(64, 30);
+            this.Cube.TabIndex = 9;
+            this.Cube.Text = "Cube";
+            this.Cube.UseVisualStyleBackColor = true;
+            this.Cube.Click += new System.EventHandler(this.oneoperations);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 252);
+            this.ClientSize = new System.Drawing.Size(440, 252);
+            this.Controls.Add(this.Cube);
             this.Controls.Add(this.Root);
             this.Controls.Add(this.Degree);
             this.Controls.Add(this.Division);
@@ -152,6 +164,7 @@
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.Button Degree;
         private System.Windows.Forms.Button Root;
+        private System.Windows.Forms.Button Cube;
     }
 }
 

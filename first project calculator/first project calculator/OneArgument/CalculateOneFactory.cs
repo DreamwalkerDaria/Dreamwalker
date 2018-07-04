@@ -12,6 +12,8 @@ namespace first_project_calculator.OneArgument
                     return new Degree();
                 case "Root":
                     return new Root();
+                case "Cube":
+                    return new Cube();
                 default:
                 throw new Exception("Неизвестная операция");
             }
