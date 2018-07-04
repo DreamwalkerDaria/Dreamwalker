@@ -79,6 +79,7 @@
     <Compile Include="SimpleTests\SinTest.cs" />
     <Compile Include="SimpleTests\SubtractionTests.cs" />
     <Compile Include="SimpleTests\TgTests.cs" />
+    <Compile Include="ArgumentsTests\TwoArgumentTest.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
     <Compile Include="TwoArgument\CalculateTwoFactory.cs" />
