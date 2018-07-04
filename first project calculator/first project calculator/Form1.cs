@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using first_project_calculator.OneArgument;
+using first_project_calculator.TwoArgument;
 
 namespace first_project_calculator
 {

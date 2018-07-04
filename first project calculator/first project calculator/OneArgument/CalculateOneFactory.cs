@@ -1,5 +1,6 @@
 ﻿using System;
-namespace first_project_calculator
+
+namespace first_project_calculator.OneArgument
 {
     class CalculateOneFactory
     {

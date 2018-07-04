@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using first_project_calculator;
+﻿using first_project_calculator.OneArgument;
 using NUnit.Framework;
 
-namespace first_project_calculatorTests.CalculateOneArgumentsTest
+namespace first_project_calculator
 {
 [TestFixture]
     public class DegreeTests

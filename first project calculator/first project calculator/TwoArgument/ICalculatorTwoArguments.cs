@@ -1,4 +1,4 @@
-﻿namespace first_project_calculator
+﻿namespace first_project_calculator.TwoArgument
 {
     public interface ICalculatorTwoArguments
     {
