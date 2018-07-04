@@ -53,12 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdditionTests.cs" />
-    <Compile Include="CalculateTwoFactoryTests.cs" />
-    <Compile Include="DivisionTests.cs" />
-    <Compile Include="MultiplyTests.cs" />
-    <Compile Include="RootTest.cs" />
-    <Compile Include="SubtractionTests.cs" />
+    <Compile Include="SimpleTests\AdditionTests.cs" />
+    <Compile Include="SimpleTests\DivisionTests.cs" />
+    <Compile Include="SimpleTests\MultiplyTests.cs" />
+    <Compile Include="SimpleTests\RootTest.cs" />
+    <Compile Include="SimpleTests\SubtractionTests.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
     <Compile Include="TwoArgument\CalculateTwoFactory.cs" />
@@ -89,7 +88,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="DegreeTests.cs" />
+    <Compile Include="SimpleTests\DegreeTests.cs" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
