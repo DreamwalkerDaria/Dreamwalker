@@ -50,6 +50,7 @@ namespace first_project_calculator
             string operation = ((Button)sender).Name;
             ICalculatorTwoArguments calculator = CalculateTwoFactory.CreateCalculator(operation);
             double result = calculator.Calculate(firstArgument, secondArgument);
+            textBox3.Text = result.ToString();
         }
 
 /*private void oneoperations(object sender, EventArgs e)

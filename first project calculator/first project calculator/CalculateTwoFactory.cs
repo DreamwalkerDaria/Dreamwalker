@@ -12,13 +12,13 @@ namespace first_project_calculator
         {
             switch(calculatorName)
             {
-                case "ButtonAddition":
+                case "Addition":
                     return new AdditionCalculator();
-                case "ButtonSubtraction":
+                case "Subtraction":
                     return new SubtractionCalculator();
-                case "ButtonMultiply":
+                case "Multiply":
                     return new MultiplyCalculator();
-                case "ButtonDivision":
+                case "Division":
                     return new DivisionCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
