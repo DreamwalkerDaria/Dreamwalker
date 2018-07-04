@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HardTests\AdditionHardTest.cs" />
+    <Compile Include="HardTests\CosHardTest.cs" />
     <Compile Include="HardTests\DivisionHardTest.cs" />
     <Compile Include="HardTests\MultiplyHardTest.cs" />
     <Compile Include="HardTests\SinHardTest.cs" />
