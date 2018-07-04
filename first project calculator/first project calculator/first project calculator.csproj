@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionTests.cs" />
     <Compile Include="CalculateTwoFactoryTests.cs" />
     <Compile Include="RootTest.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
