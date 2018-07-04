@@ -26,7 +26,7 @@ namespace first_project_calculator
 private void oneoperations(object sender, EventArgs e)
         {
             string firstValueText = textBox1.Text;
-            double firstValue = Convert.ToDouble(firstValueText);
+            var firstValue = Convert.ToDouble(firstValueText);
             string operation = ((Button)sender).Name;
             ICalculatorOneArguments calculator = CalculateOneFactory.CreateCalculator(operation);
             double result = calculator.Calculate(firstValue);
