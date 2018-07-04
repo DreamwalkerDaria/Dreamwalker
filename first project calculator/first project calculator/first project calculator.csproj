@@ -53,7 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cube.cs" />
+    <Compile Include="HardTests\AdditionHardTest.cs" />
+    <Compile Include="OneArgument\Cube.cs" />
     <Compile Include="SimpleTests\AdditionTests.cs" />
     <Compile Include="SimpleTests\DivisionTests.cs" />
     <Compile Include="SimpleTests\MultiplyTests.cs" />
