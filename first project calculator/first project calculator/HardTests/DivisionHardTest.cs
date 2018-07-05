@@ -1,4 +1,5 @@
-﻿using first_project_calculator.TwoArgument;
+﻿using System;
+using first_project_calculator.TwoArgument;
 using NUnit.Framework;
 
 namespace first_project_calculator.HardTests
@@ -14,6 +15,12 @@ namespace first_project_calculator.HardTests
             var calculator = new DivisionCalculator();
             var actualResult = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(result, actualResult);
+        }
+        [Test]
+        public void DivisionExeptionTest()
+        {
+            ICalculatorTwoArguments calculator = CalculateTwoFactory.CreateCalculator("Division");
+            Assert.Throws<Exception>(() => calculator.Calculate(5, 0));
         }
     }
 }
