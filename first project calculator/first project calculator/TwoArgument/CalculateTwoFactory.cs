@@ -2,6 +2,9 @@
 
 namespace first_project_calculator.TwoArgument
 {
+    /// <summary>  
+    /// In hierarchy there will be a static class-factory, responsible for creating instances of calculators by their name.
+    /// </summary> 
     class CalculateTwoFactory
     {
         public static ICalculatorTwoArguments CreateCalculator(string calculatorName)
