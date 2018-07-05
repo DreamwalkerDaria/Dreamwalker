@@ -5,7 +5,7 @@ namespace first_project_calculator.OneArgument
     /// <summary>  
     /// In hierarchy there will be a static class-factory, responsible for creating instances of calculators by their name.
     /// </summary> 
-    class CalculateOneFactory
+    public class CalculateOneFactory
     {
         public static ICalculatorOneArguments CreateCalculator(string calculatorName)
         {
@@ -39,5 +39,10 @@ namespace first_project_calculator.OneArgument
                 throw new Exception("Неизвестная операция");
             }
         }
+
+       // public object CreateCalculator(string name)
+       // {
+       //     throw new NotImplementedException();
+       // }
     }
 }

@@ -29,12 +29,6 @@ namespace first_project_calculator
             {
                 textBox3.Text = exc.Message;
             }
-            finally
-            {
-                // действия которые выполняются независимо от того, 
-                // произошло исключение или нет
-            }
-
         }
         private void oneoperations(object sender, EventArgs e)
         {

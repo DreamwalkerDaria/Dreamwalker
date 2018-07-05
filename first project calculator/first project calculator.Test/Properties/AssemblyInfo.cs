@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("first_project_calculator.Testx")]
+[assembly: AssemblyTitle("first project calculator.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("first_project_calculator.Testx")]
+[assembly: AssemblyProduct("first project calculator.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("297ac22f-a9cd-41da-a151-34ab14f20f1e")]
+[assembly: Guid("1754564c-af16-4c69-8977-fdd972a7b403")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
