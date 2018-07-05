@@ -46,7 +46,7 @@
             this.Ln = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
             this.Onedivfarg = new System.Windows.Forms.Button();
-            this.Grad = new System.Windows.Forms.Button();
+            this.Minusx = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
@@ -242,16 +242,16 @@
             this.Onedivfarg.UseVisualStyleBackColor = true;
             this.Onedivfarg.Click += new System.EventHandler(this.oneoperations);
             // 
-            // Grad
+            // Minusx
             // 
-            this.Grad.Location = new System.Drawing.Point(366, 172);
-            this.Grad.Margin = new System.Windows.Forms.Padding(4);
-            this.Grad.Name = "Grad";
-            this.Grad.Size = new System.Drawing.Size(47, 43);
-            this.Grad.TabIndex = 18;
-            this.Grad.Text = "grad";
-            this.Grad.UseVisualStyleBackColor = true;
-            this.Grad.Click += new System.EventHandler(this.oneoperations);
+            this.Minusx.Location = new System.Drawing.Point(366, 172);
+            this.Minusx.Margin = new System.Windows.Forms.Padding(4);
+            this.Minusx.Name = "Minusx";
+            this.Minusx.Size = new System.Drawing.Size(47, 43);
+            this.Minusx.TabIndex = 18;
+            this.Minusx.Text = "-х";
+            this.Minusx.UseVisualStyleBackColor = true;
+            this.Minusx.Click += new System.EventHandler(this.oneoperations);
             // 
             // Max
             // 
@@ -306,7 +306,7 @@
             this.Controls.Add(this.Average);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Max);
-            this.Controls.Add(this.Grad);
+            this.Controls.Add(this.Minusx);
             this.Controls.Add(this.Onedivfarg);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Ln);
@@ -353,7 +353,7 @@
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button Onedivfarg;
-        private System.Windows.Forms.Button Grad;
+        private System.Windows.Forms.Button Minusx;
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Average;

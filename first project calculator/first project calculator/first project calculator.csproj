@@ -69,8 +69,8 @@
     <Compile Include="ArgumentsTests\OneArgumentTest.cs" />
     <Compile Include="HardTests\TgHardTest.cs" />
     <Compile Include="OneArgument\Cos.cs" />
-    <Compile Include="OneArgument\Grad.cs" />
-    <Compile Include="OneArgument\onedivfarg.cs" />
+    <Compile Include="OneArgument\Onedivfarg.cs" />
+    <Compile Include="OneArgument\Minusx.cs" />
     <Compile Include="SimpleTests\CosTests.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
     <Compile Include="OneArgument\Cube.cs" />
