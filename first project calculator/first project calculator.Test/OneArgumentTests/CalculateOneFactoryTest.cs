@@ -2,7 +2,7 @@
 using first_project_calculator.OneArgument;
 using NUnit.Framework;
 
-namespace first_project_calculator.Test.ArgumentsTests
+namespace first_project_calculator.Test.OneArgumentTests
 {
     public class CalculatorOneArgumentsTests
     {

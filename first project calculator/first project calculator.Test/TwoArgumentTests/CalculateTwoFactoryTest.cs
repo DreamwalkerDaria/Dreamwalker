@@ -2,7 +2,7 @@
 using first_project_calculator.TwoArgument;
 using NUnit.Framework;
 
-namespace first_project_calculator.Test.ArgumentsTests
+namespace first_project_calculator.Test.TwoArgumentTests
 {
     public class CalculatorTwoArgumentsTests
     {

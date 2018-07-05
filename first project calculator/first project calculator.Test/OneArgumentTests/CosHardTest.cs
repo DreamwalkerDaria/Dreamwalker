@@ -1,7 +1,7 @@
 ﻿using first_project_calculator.OneArgument;
 using NUnit.Framework;
 
-namespace first_project_calculator.Test.HardTests
+namespace first_project_calculator.Test.OneArgumentTests
 {
     [TestFixture]
     public class CosHardTests
@@ -13,7 +13,7 @@ namespace first_project_calculator.Test.HardTests
         {
             var calculator = new Cos();
             var actualResult = calculator.Calculate(firstArgument);
-            Assert.AreEqual(result, actualResult);
+            Assert.AreEqual(result, actualResult, 0.0001);
         }
     }
 }

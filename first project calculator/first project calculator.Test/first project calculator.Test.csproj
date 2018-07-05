@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="OneArgumentTests\CalculateOneFactoryTest.cs" />
     <Compile Include="TwoArgumentTests\CalculateTwoFactoryTest.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="TwoArgumentTests\AdditionHardTest.cs" />
     <Compile Include="OneArgumentTests\CosHardTest.cs" />
     <Compile Include="OneArgumentTests\CtgHardTest.cs" />

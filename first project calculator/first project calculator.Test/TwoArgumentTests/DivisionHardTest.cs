@@ -2,7 +2,7 @@
 using first_project_calculator.TwoArgument;
 using NUnit.Framework;
 
-namespace first_project_calculator.Test.HardTests
+namespace first_project_calculator.Test.TwoArgumentTests
 {
     [TestFixture]
     public class DivisionHardTests
@@ -16,6 +16,7 @@ namespace first_project_calculator.Test.HardTests
             var actualResult = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(result, actualResult);
         }
+
         [Test]
         public void DivisionExeptionTest()
         {

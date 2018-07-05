@@ -1,7 +1,7 @@
 ﻿using first_project_calculator.TwoArgument;
 using NUnit.Framework;
 
-namespace first_project_calculator.Test.HardTests
+namespace first_project_calculator.Test.TwoArgumentTests
 {
     [TestFixture]
     public class AdditionHardTests
