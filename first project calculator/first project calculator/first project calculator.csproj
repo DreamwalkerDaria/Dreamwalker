@@ -53,25 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HardTests\AdditionHardTest.cs" />
-    <Compile Include="HardTests\CosHardTest.cs" />
-    <Compile Include="HardTests\CtgHardTest.cs" />
-    <Compile Include="HardTests\CubeHardTest.cs" />
-    <Compile Include="HardTests\Degree.cs" />
-    <Compile Include="HardTests\DivisionHardTest.cs" />
-    <Compile Include="HardTests\ExpHardTest.cs" />
-    <Compile Include="HardTests\LnHardTest.cs" />
-    <Compile Include="HardTests\ModuleHardTest.cs" />
-    <Compile Include="HardTests\MultiplyHardTest.cs" />
-    <Compile Include="HardTests\RootHardTest.cs" />
-    <Compile Include="HardTests\SinHardTest.cs" />
-    <Compile Include="HardTests\SubtractionHardTest.cs" />
-    <Compile Include="ArgumentsTests\OneArgumentTest.cs" />
-    <Compile Include="HardTests\TgHardTest.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Onedivfarg.cs" />
     <Compile Include="OneArgument\Minusx.cs" />
-    <Compile Include="SimpleTests\CosTests.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
     <Compile Include="OneArgument\Cube.cs" />
     <Compile Include="OneArgument\Exp.cs" />
@@ -79,19 +63,6 @@
     <Compile Include="OneArgument\Module.cs" />
     <Compile Include="OneArgument\Sin.cs" />
     <Compile Include="OneArgument\Tg.cs" />
-    <Compile Include="SimpleTests\AdditionTests.cs" />
-    <Compile Include="SimpleTests\CtgTests.cs" />
-    <Compile Include="SimpleTests\CubeTests.cs" />
-    <Compile Include="SimpleTests\DivisionTests.cs" />
-    <Compile Include="SimpleTests\ExpTests.cs" />
-    <Compile Include="SimpleTests\LnTests.cs" />
-    <Compile Include="SimpleTests\ModuleTests.cs" />
-    <Compile Include="SimpleTests\MultiplyTests.cs" />
-    <Compile Include="SimpleTests\RootTests.cs" />
-    <Compile Include="SimpleTests\SinTest.cs" />
-    <Compile Include="SimpleTests\SubtractionTests.cs" />
-    <Compile Include="SimpleTests\TgTests.cs" />
-    <Compile Include="ArgumentsTests\TwoArgumentTest.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
     <Compile Include="TwoArgument\Average.cs" />
@@ -126,7 +97,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SimpleTests\DegreeTests.cs" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
