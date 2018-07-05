@@ -69,6 +69,8 @@
     <Compile Include="ArgumentsTests\OneArgumentTest.cs" />
     <Compile Include="HardTests\TgHardTest.cs" />
     <Compile Include="OneArgument\Cos.cs" />
+    <Compile Include="OneArgument\Grad.cs" />
+    <Compile Include="OneArgument\onedivfarg.cs" />
     <Compile Include="SimpleTests\CosTests.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
     <Compile Include="OneArgument\Cube.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="ArgumentsTests\TwoArgumentTest.cs" />
     <Compile Include="TwoArgument\AdditionCalculator.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
+    <Compile Include="TwoArgument\Average.cs" />
     <Compile Include="TwoArgument\CalculateTwoFactory.cs" />
     <Compile Include="OneArgument\Degree.cs" />
     <Compile Include="TwoArgument\DivisionCalculator.cs" />
@@ -102,6 +105,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OneArgument\ICalculatorOneArguments.cs" />
+    <Compile Include="TwoArgument\Geommean.cs" />
+    <Compile Include="TwoArgument\Max.cs" />
+    <Compile Include="TwoArgument\Min.cs" />
     <Compile Include="TwoArgument\MultiplyCalculator.cs" />
     <Compile Include="OneArgument\Root.cs" />
     <Compile Include="TwoArgument\SubtractionCalculator.cs" />

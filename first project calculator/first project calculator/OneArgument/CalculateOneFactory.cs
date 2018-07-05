@@ -31,6 +31,10 @@ namespace first_project_calculator.OneArgument
                     return new Ln();
                 case "Exp":
                     return new Exp();
+                case "Onedivfarg":
+                    return new Onedivfarg();
+                case "Grad":
+                    return new Grad();
                 default:
                 throw new Exception("Неизвестная операция");
             }

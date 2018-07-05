@@ -19,6 +19,14 @@ namespace first_project_calculator.TwoArgument
                     return new MultiplyCalculator();
                 case "Division":
                     return new DivisionCalculator();
+                case "Max":
+                    return new Max();
+                case "Min":
+                    return new Min();
+                case "Average":
+                    return new Average();
+                case "Geommean":
+                    return new Geommean();
                 default:
                     throw new Exception("Неизвестная операция");
             }
