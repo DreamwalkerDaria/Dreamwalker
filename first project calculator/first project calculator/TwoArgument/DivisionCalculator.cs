@@ -8,9 +8,9 @@ namespace first_project_calculator.TwoArgument
         {
             if (secondArgument == 0)
             {
-                throw new Exception("Деление на 0");
+                throw new Exception("Error! Division by zero");
             }
             return firstArgument / secondArgument;
         }
+        }
     }
-}

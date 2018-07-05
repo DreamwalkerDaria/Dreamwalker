@@ -14,16 +14,29 @@ namespace first_project_calculator
 
         private void operations(object sender, EventArgs e)
         {
-            string firstArgumentText = textBox1.Text;
-            double firstArgument = Convert.ToDouble(firstArgumentText);
-            string secondArgumentText = textBox2.Text;
-            double secondArgument = Convert.ToDouble(secondArgumentText);
-            string operation = ((Button)sender).Name;
-            ICalculatorTwoArguments calculator = CalculateTwoFactory.CreateCalculator(operation);
-            double result = calculator.Calculate(firstArgument, secondArgument);
-            textBox3.Text = result.ToString();
+            try
+            {
+                string firstArgumentText = textBox1.Text;
+                double firstArgument = Convert.ToDouble(firstArgumentText);
+                string secondArgumentText = textBox2.Text;
+                double secondArgument = Convert.ToDouble(secondArgumentText);
+                string operation = ((Button)sender).Name;
+                ICalculatorTwoArguments calculator = CalculateTwoFactory.CreateCalculator(operation);
+                double result = calculator.Calculate(firstArgument, secondArgument);
+                textBox3.Text = result.ToString();
+            }
+            catch (Exception exc)
+            {
+                textBox3.Text = exc.Message;
+            }
+            finally
+            {
+                // действия которые выполняются независимо от того, 
+                // произошло исключение или нет
+            }
+
         }
-private void oneoperations(object sender, EventArgs e)
+        private void oneoperations(object sender, EventArgs e)
         {
             string firstValueText = textBox1.Text;
             var firstValue = Convert.ToDouble(firstValueText);
