@@ -2,11 +2,20 @@
 
 namespace first_project_calculator.TwoArgument
 {
-    /// <summary>  
-    /// Division of two arguments.
-    /// </summary> 
     public class DivisionCalculator : ICalculatorTwoArguments
     {
+        /// <summary>  
+        /// Division calculator function
+        /// </summary>
+        /// <param name="firstArgument">
+        /// double firstArgument
+        /// </param>
+        /// <param name="secondArgument">
+        /// double secondArgument
+        /// </param>
+        /// <returns>
+        /// Return firstArgument / secondArgument
+        /// </returns>
         public double Calculate(double firstArgument, double secondArgument)
         {
             if (secondArgument == 0)

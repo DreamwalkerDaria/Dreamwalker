@@ -1,10 +1,14 @@
 ﻿namespace first_project_calculator.OneArgument
 {
-    /// <summary>  
-    /// Сreating one arguments.
-    /// </summary> 
     public interface ICalculatorOneArguments
     {
+        /// <summary>
+        /// Interface
+        /// </summary>
+        /// <param name="thirdValue"></param>
+        /// <returns>
+        /// thirdValue
+        /// </returns>
         double Calculate(double firstArgument);
     }
 }

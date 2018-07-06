@@ -2,11 +2,15 @@
 
 namespace first_project_calculator.OneArgument
 {
-    /// <summary>  
-    /// In hierarchy there will be a static class-factory, responsible for creating instances of calculators by their name.
-    /// </summary> 
     public class CalculateOneFactory
     {
+        /// <summary>
+        /// Switch One Argument Calculator
+        /// </summary>
+        /// <param name="calculatornName"></param>
+        /// <returns>
+        /// Method
+        /// </returns>
         public static ICalculatorOneArguments CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
@@ -31,18 +35,13 @@ namespace first_project_calculator.OneArgument
                     return new Ln();
                 case "Exp":
                     return new Exp();
-                case "Onedivfarg":
-                    return new Onedivfarg();
+                case "Fraction":
+                    return new Fraction();
                 case "Minusx":
                     return new Minusx();
                 default:
                 throw new Exception("Неизвестная операция");
             }
         }
-
-       // public object CreateCalculator(string name)
-       // {
-       //     throw new NotImplementedException();
-       // }
     }
 }

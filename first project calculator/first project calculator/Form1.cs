@@ -5,6 +5,9 @@ using first_project_calculator.TwoArgument;
 
 namespace first_project_calculator
 {
+    /// <summary>
+    /// added to the test calculators throwing an exception in the case of invalid input data. In the form added processing of such exceptions
+    /// </summary>
     public partial class Form1 : Form
     {
         public Form1()

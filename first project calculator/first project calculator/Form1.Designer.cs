@@ -45,8 +45,8 @@
             this.Module = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
-            this.Onedivfarg = new System.Windows.Forms.Button();
-            this.Minusx = new System.Windows.Forms.Button();
+            this.Fraction = new System.Windows.Forms.Button();
+            this.Misunx = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
@@ -214,25 +214,25 @@
             this.Exp.UseVisualStyleBackColor = true;
             this.Exp.Click += new System.EventHandler(this.oneoperations);
             // 
-            // Onedivfarg
+            // Fraction
             // 
-            this.Onedivfarg.Location = new System.Drawing.Point(240, 140);
-            this.Onedivfarg.Name = "Onedivfarg";
-            this.Onedivfarg.Size = new System.Drawing.Size(35, 35);
-            this.Onedivfarg.TabIndex = 17;
-            this.Onedivfarg.Text = "1/x";
-            this.Onedivfarg.UseVisualStyleBackColor = true;
-            this.Onedivfarg.Click += new System.EventHandler(this.oneoperations);
+            this.Fraction.Location = new System.Drawing.Point(240, 140);
+            this.Fraction.Name = "Fraction";
+            this.Fraction.Size = new System.Drawing.Size(35, 35);
+            this.Fraction.TabIndex = 17;
+            this.Fraction.Text = "1/x";
+            this.Fraction.UseVisualStyleBackColor = true;
+            this.Fraction.Click += new System.EventHandler(this.oneoperations);
             // 
-            // Minusx
+            // Misunx
             // 
-            this.Minusx.Location = new System.Drawing.Point(274, 140);
-            this.Minusx.Name = "Minusx";
-            this.Minusx.Size = new System.Drawing.Size(35, 35);
-            this.Minusx.TabIndex = 18;
-            this.Minusx.Text = "-х";
-            this.Minusx.UseVisualStyleBackColor = true;
-            this.Minusx.Click += new System.EventHandler(this.oneoperations);
+            this.Misunx.Location = new System.Drawing.Point(274, 140);
+            this.Misunx.Name = "Misunx";
+            this.Misunx.Size = new System.Drawing.Size(35, 35);
+            this.Misunx.TabIndex = 18;
+            this.Misunx.Text = "-х";
+            this.Misunx.UseVisualStyleBackColor = true;
+            this.Misunx.Click += new System.EventHandler(this.oneoperations);
             // 
             // Max
             // 
@@ -283,8 +283,8 @@
             this.Controls.Add(this.Average);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Max);
-            this.Controls.Add(this.Minusx);
-            this.Controls.Add(this.Onedivfarg);
+            this.Controls.Add(this.Misunx);
+            this.Controls.Add(this.Fraction);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Module);
@@ -328,8 +328,8 @@
         private System.Windows.Forms.Button Module;
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button Exp;
-        private System.Windows.Forms.Button Onedivfarg;
-        private System.Windows.Forms.Button Minusx;
+        private System.Windows.Forms.Button Fraction;
+        private System.Windows.Forms.Button Misunx;
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Average;

@@ -64,20 +64,7 @@
     <Compile Include="TwoArgumentTests\SubtractionHardTest.cs" />
     <Compile Include="OneArgumentTests\TgHardTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoArgumentTests\AdditionTests.cs" />
-    <Compile Include="OneArgumentTests\CosTests.cs" />
-    <Compile Include="OneArgumentTests\CtgTests.cs" />
-    <Compile Include="OneArgumentTests\CubeTests.cs" />
     <Compile Include="OneArgumentTests\DegreeTests.cs" />
-    <Compile Include="TwoArgumentTests\DivisionTests.cs" />
-    <Compile Include="OneArgumentTests\ExpTests.cs" />
-    <Compile Include="OneArgumentTests\LnTests.cs" />
-    <Compile Include="OneArgumentTests\ModuleTests.cs" />
-    <Compile Include="TwoArgumentTests\MultiplyTests.cs" />
-    <Compile Include="OneArgumentTests\RootTests.cs" />
-    <Compile Include="OneArgumentTests\SinTest.cs" />
-    <Compile Include="TwoArgumentTests\SubtractionTests.cs" />
-    <Compile Include="OneArgumentTests\TgTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
